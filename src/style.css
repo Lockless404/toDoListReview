@@ -1,0 +1,114 @@
+body {
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+form {
+  width: 65vw;
+  margin: 10rem;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.heading {
+  padding: 0.3rem;
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.103);
+}
+
+h1 {
+  font-size: 1rem;
+  font-family: sans-serif;
+  font-weight: 550;
+}
+
+button {
+  background-color: #fff;
+  border: none;
+  cursor: pointer;
+  position: relative;
+  z-index: 5;
+}
+
+i {
+  position: relative;
+  z-index: -1;
+}
+
+.inputField {
+  display: flex;
+}
+
+.input {
+  padding: 0.8rem 0.3rem 0.8rem 0.3rem;
+  border: 0;
+  width: 98%;
+  font-size: 1rem;
+}
+
+.checkedDisplay {
+  text-decoration: line-through;
+  color: rgba(0, 0, 0, 0.37);
+}
+
+.enterBtn {
+  padding: 0.7rem;
+}
+
+.tasks {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.displayList {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-top: 1px solid rgba(0, 0, 0, 0.103);
+}
+
+.binButton {
+  transform: translateX(100rem);
+  width: 3rem;
+  height: 5.5vh;
+  padding: 0;
+  margin: 0;
+}
+
+.buttonAppear {
+  transform: translateX(0);
+}
+
+.listButton {
+  width: 3rem;
+  height: 3vh;
+  transform: translateX(0);
+  padding: 0;
+  margin: 0;
+}
+
+.buttonDisappear {
+  transform: translateX(100rem);
+}
+
+.innerItems {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-right: 0.7rem;
+  height: 100%;
+}
+
+.removeAll {
+  width: 100%;
+  border: none;
+  border-top: 1px solid rgba(0, 0, 0, 0.103);
+  text-align: center;
+  font-size: 1rem;
+  padding: 1rem 0.3rem 1rem 0.3rem;
+  color: rgba(0, 0, 0, 0.507);
+  background-color: rgba(0, 0, 0, 0.034);
+}
